@@ -85,11 +85,10 @@ Remember: allow a remote user to have all privileges is a security concern and t
 
 2.4 Update phpMyAdmin
 Using sudo, edit /etc/dbconfig-common/phpmyadmin.conf file updating user/password values in the following sections
-# dbc_dbuser: database user
-#       the name of the user who we will use to connect to the database.
+
+dbc_dbuser: database user the name of the user who we will use to connect to the database.
 dbc_dbuser='phpmyadmin'
 
-# dbc_dbpass: database user password
-#       the password to use with the above username when connecting
-#       to a database, if one is required
+dbc_dbpass: database user password the password to use with the above username when connecting to a database, if one is required
+
 dbc_dbpass='some_pass'
